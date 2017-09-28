@@ -33,8 +33,12 @@ fs.readFile("usersfinals.json","utf8",function(err,data){
                         i++;
                         console.log(i); 
                         var appen=JSON.stringify(app)+"\n";
+                       
+                       
                         
-                        fs.appendFile("userfollowers.json",appen);              
+                                fs.appendFile("userfollowers.json",appen);
+                        
+                                     
                          }
                 });
                 
